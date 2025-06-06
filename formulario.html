@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de Contacto</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Formulario de Contacto</h1>
+
+        <form id="contactForm">
+            <div class="form-group">
+                <label for="name">Nombre</label>
+                <input type="text" id="name" name="name" placeholder="Ingrese el Nombre">
+            </div>
+
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="text" id="email" name="email" placeholder="Ingrese el email">
+            </div>
+
+
+            <div class="form-group">
+                <label for="phone">Telefono</label>
+                <input type="tel" id="phone" name="phone" placeholder="Ingrese el Telefono">
+
+            </div>
+
+            
+            <div class="form-group">
+                <label for="subject">Asunto</label>
+                <input type="text" id="subject" name="subject" placeholder="Ingrese el Asunto">
+
+            </div>
+
+            <div class="form-group">
+                <label for="message">Mensaje</label>
+                <textarea  id="message" name="message" rows="5"> </textarea>
+            </div>
+
+             <div class="form-group">
+                <label for="company">Compañia</label>
+                <input type="text" id="company" name="company" placeholder="Ingrese la compañia">
+
+            </div>
+
+            <div class="form-group">
+                <label for="website">Sitio Web</label>
+                <input type="url" id="website" name="website" placeholder="Ingrese la compañia">
+
+            </div>
+
+             <div class="form-group">
+                <label for="budget">Presupuesto</label>
+                <input type="number" id="budget" name="budget" placeholder="Ingrese el presupuesto">
+
+            </div>
+
+            <button type="submit">Enviar</button>
+
+        </form>
+        <div id="successMessage" class="success-message">¡Mensaje enviado con éxito!</div>
+    </div>
+</body>
+</html>
